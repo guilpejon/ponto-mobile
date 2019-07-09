@@ -57,7 +57,7 @@ export default class SignIn extends Component {
           password: this.state.password,
         });
 
-        await AsyncStorage.setItem('@AirBnbApp:token', response.data.token);
+        await AsyncStorage.setItem('@PontoApp:token', response.data.token);
 
         const resetAction = StackActions.reset({
           index: 0,
