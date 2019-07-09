@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import { View } from 'react-native';
+import {
+  View ,
+  Text
+} from 'react-native';
 
-// import styles from './styles';
+import {
+  Container
+} from './styles'
 
-const Main = () => <View />;
-
-export default Main;
+export default class Main extends Component {
+  render() {
+    return(
+      <Container>
+        <Text>Hello, World!</Text>
+        <View />
+      </Container>
+    );
+  }
+}

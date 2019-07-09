@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { StatusBar, AsyncStorage } from 'react-native';
+// import AsyncStorage from '@react-native-community/async-storage';
 import { StackActions, NavigationActions } from 'react-navigation';
 
 import api from '../../services/api';
@@ -29,10 +30,10 @@ export default class SignIn extends Component {
     }).isRequired,
   };
 
-  state = { email: '', password: '', error: '' };
+  state = { username: 'guil', password: '123456', error: '' };
 
-  handleEmailChange = email => {
-    this.setState({ email });
+  handleUsernameChange = username => {
+    this.setState({ username });
   };
 
   handlePasswordChange = password => {
@@ -44,15 +45,15 @@ export default class SignIn extends Component {
   };
 
   handleSignInPress = async () => {
-    if (this.state.email.length === 0 || this.state.password.length === 0) {
+    if (this.state.username.length === 0 || this.state.password.length === 0) {
       this.setState(
         { error: 'Preencha usuário e senha para continuar!' },
         () => false
       );
     } else {
       try {
-        const response = await api.post('/sessions', {
-          email: this.state.email,
+        const response = await api.post('/login', {
+          username: this.state.username,
           password: this.state.password,
         });
 
@@ -63,7 +64,8 @@ export default class SignIn extends Component {
           actions: [NavigationActions.navigate({ routeName: 'Main' })],
         });
         this.props.navigation.dispatch(resetAction);
-      } catch (_err) {
+      } catch (err) {
+        console.log(err)
         this.setState({
           error: 'Houve um problema com o login, verifique suas credenciais!'
         });
@@ -77,9 +79,9 @@ export default class SignIn extends Component {
         <StatusBar hidden />
         <Logo source={require('../../images/logo.jpg')} resizeMode="contain" />
         <Input
-          placeholder="Endereço de e-mail"
-          value={this.state.email}
-          onChangeText={this.handleEmailChange}
+          placeholder="Nome de usuário"
+          value={this.state.username}
+          onChangeText={this.handleUsernameChange}
           autoCapitalize="none"
           autoCorrect={false}
         />

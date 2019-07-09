@@ -4,12 +4,22 @@ import SignIn from './pages/signIn';
 import SignUp from './pages/signUp';
 import Main from './pages/main';
 
-const Routes = createStackNavigator({
-  SignIn,
-  SignUp,
-  Main,
-});
+const Routes = createStackNavigator(
+  {
+    SignIn,
+    SignUp,
+    Main,
+  },
+  {
+    navigationOptions: {
+      headerStyle: {
+        backgroundColor: '#da552f',
+      },
+      headerTintColor: '#fff',
+    },
+  }
+);
 
-const App = createAppContainer(Routes);
+const AppContainer = createAppContainer(Routes);
 
-export default App;
+export default AppContainer;

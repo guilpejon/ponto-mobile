@@ -32,9 +32,9 @@ export default class SignUp extends Component {
   };
 
   state = {
-    username: 'csorlandi',
-    email: 'cso.junior1996@gmail.com',
-    password: '123456',
+    username: 'guil',
+    email: 'guil@email.com',
+    password: 'asdasd',
     error: '',
     success: ''
   };
@@ -63,7 +63,7 @@ export default class SignUp extends Component {
       );
     } else {
       try {
-        await api.post('/users', {
+        const response = await api.post('/users', {
           username: this.state.username,
           email: this.state.email,
           password: this.state.password,
@@ -75,7 +75,7 @@ export default class SignUp extends Component {
         });
 
         setTimeout(this.goToLogin, 2500);
-      } catch (_err) {
+      } catch (err) {
         this.setState({
           error:
             'Houve um problema com o cadastro, verifique os dados preenchidos!'
