@@ -7,4 +7,14 @@ const Container = styled.View`
   backgroundColor: #f5f5f5;
 `;
 
-export { Container };
+const List = styled.FlatList`
+  padding: 20px;
+`
+
+const RegistryCreatedAt = styled.Text`
+  fontSize: 18;
+  fontWeight: bold;
+  color: #333;
+`
+
+export { Container, List, RegistryCreatedAt };
