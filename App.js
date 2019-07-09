@@ -1,12 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -31,7 +23,8 @@ const App = () => {
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
+          style={styles.scrollView}
+        >
           <Header />
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
@@ -90,7 +83,7 @@ const styles = StyleSheet.create({
     color: Colors.dark,
   },
   highlight: {
-    fontWeight: '700',
+    fontWeight: '700'
   },
 });
 
