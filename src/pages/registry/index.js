@@ -1,9 +1,19 @@
 import React from 'react'
 
-import { Text } from 'react-native'
+import {
+  Text ,
+  View
+} from 'react-native'
+
+import {
+  Container,
+  Image
+} from './styles'
 
 const Registry = ({ navigation }) => (
-  <Text>{navigation.state.params.registry.createdAt}</Text>
+  <Container>
+    <Image source={{uri: navigation.state.params.registry.image}} />
+  </Container>
 );
 
 Registry.navigationOptions = ({ navigation }) => ({
