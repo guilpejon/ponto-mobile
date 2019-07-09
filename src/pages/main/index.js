@@ -5,12 +5,16 @@ import api from '../../services/api';
 import {
   View,
   Text,
+  TouchableOpacity,
   FlatList
 } from 'react-native';
 
 import {
   Container,
   RegistryCreatedAt,
+  RegistryButton,
+  RegistryButtonText,
+  RegistryContainer,
   List
 } from './styles'
 
@@ -36,9 +40,16 @@ export default class Main extends Component {
   };
 
   renderItem = ({ item }) => (
-    <RegistryCreatedAt>
-      {item.createdAt}
-    </RegistryCreatedAt>
+    <RegistryContainer>
+      <RegistryCreatedAt>{item.createdAt}</RegistryCreatedAt>
+      <RegistryButton
+        onPress={() => {
+          this.props.navigation.navigate('Registry', { registry: item });
+        }}
+      >
+        <RegistryButtonText>Acessar</RegistryButtonText>
+      </RegistryButton>
+    </RegistryContainer>
   );
 
   render() {

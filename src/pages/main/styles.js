@@ -12,9 +12,42 @@ const List = styled.FlatList`
 `
 
 const RegistryCreatedAt = styled.Text`
-  fontSize: 18;
+  fontSize: 18px;
   fontWeight: bold;
   color: #333;
 `
 
-export { Container, List, RegistryCreatedAt };
+const RegistryContainer = styled.View`
+  backgroundColor: #fff;
+  borderWidth: 1px;
+  borderColor: #ddd;
+  borderRadius: 5px;
+  padding: 20px;
+  marginBottom: 20px;
+`
+
+const RegistryButton = styled.TouchableOpacity`
+  height: 42px;
+  borderRadius: 5px;
+  borderWidth: 2px;
+  borderColor: #da552f;
+  backgroundColor: transparent;
+  justifyContent: center;
+  alignItems: center;
+  marginTop: 10px;
+`
+
+const RegistryButtonText = styled.Text`
+  fontSize: 16px;
+  color: #da552f;
+  fontWeight: bold;
+`
+
+export {
+  Container,
+  List,
+  RegistryCreatedAt,
+  RegistryButton,
+  RegistryContainer,
+  RegistryButtonText
+};
