@@ -6,6 +6,8 @@
     "start": "react-native start",
     "start-android": "npx react-native run-android",
     "start-ios": "npx react-native run-ios",
+    "log-android": "react-native log-android",
+    "log-iod": "react-native log-ios",
     "test": "jest",
     "lint": "eslint ."
   },
