@@ -6,7 +6,8 @@ import {
   View,
   Text,
   TouchableOpacity,
-  FlatList
+  FlatList,
+  Button
 } from 'react-native';
 
 import {
@@ -15,6 +16,7 @@ import {
   RegistryButton,
   RegistryButtonText,
   RegistryContainer,
+  HeaderButton,
   List
 } from './styles'
 
@@ -25,6 +27,13 @@ export default class Main extends Component {
 
   static navigationOptions = {
     title: 'PontoApp',
+    headerStyle: {
+      backgroundColor: '#FC6663',
+    },
+    headerTintColor: '#fff',
+    headerTitleStyle: {
+      fontWeight: 'bold',
+    },
   };
 
   componentDidMount() {
@@ -47,7 +56,7 @@ export default class Main extends Component {
           this.props.navigation.navigate('Registry', { registry: item });
         }}
       >
-        <RegistryButtonText>Acessar</RegistryButtonText>
+        <RegistryButtonText>Visualizar</RegistryButtonText>
       </RegistryButton>
     </RegistryContainer>
   );

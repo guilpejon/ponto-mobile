@@ -96,7 +96,7 @@ export default class SignUp extends Component {
     return (
       <Container>
         <StatusBar hidden />
-        <Logo source={require('../../images/logo.jpg')} resizeMode="contain" />
+        <Logo source={require('../../images/logo.png')} resizeMode="contain" />
         {this.state.success.length !== 0 && (
           <SuccessMessage>{this.state.success}</SuccessMessage>
         )}

@@ -77,7 +77,7 @@ export default class SignIn extends Component {
     return (
       <Container>
         <StatusBar hidden />
-        <Logo source={require('../../images/logo.jpg')} resizeMode="contain" />
+        <Logo source={require('../../images/logo.png')} resizeMode="contain" />
         <Input
           placeholder="Nome de usuário"
           value={this.state.username}
@@ -100,7 +100,7 @@ export default class SignIn extends Component {
           <ButtonText>Entrar</ButtonText>
         </Button>
         <SignUpLink onPress={this.handleCreateAccountPress}>
-          <SignUpLinkText>Criar conta grátis</SignUpLinkText>
+          <SignUpLinkText>Criar conta</SignUpLinkText>
         </SignUpLink>
       </Container>
     );

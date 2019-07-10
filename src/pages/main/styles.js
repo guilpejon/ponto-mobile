@@ -43,11 +43,16 @@ const RegistryButtonText = styled.Text`
   fontWeight: bold;
 `
 
+const HeaderButton = styled.Button`
+  paddingRight: 30px;
+`
+
 export {
   Container,
   List,
   RegistryCreatedAt,
   RegistryButton,
   RegistryContainer,
-  RegistryButtonText
+  RegistryButtonText,
+  HeaderButton
 };
