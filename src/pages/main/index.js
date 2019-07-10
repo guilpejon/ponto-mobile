@@ -16,7 +16,6 @@ import {
   RegistryButton,
   RegistryButtonText,
   RegistryContainer,
-  HeaderButton,
   List
 } from './styles'
 

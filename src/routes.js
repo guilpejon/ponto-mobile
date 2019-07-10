@@ -7,9 +7,7 @@ import Registry from './pages/registry';
 import Camera from './pages/camera';
 
 import React from 'react';
-import {
-  Button
-} from 'react-native';
+import { TouchableOpacity, Image } from 'react-native';
 
 const Routes = createStackNavigator(
   {
@@ -21,10 +19,11 @@ const Routes = createStackNavigator(
       screen: Main,
       navigationOptions: ({ navigation }) => ({
         headerRight: (
-          <Button
-            onPress={() => navigation.navigate('Camera')}
-            title='Novo Ponto'
-          />
+          <TouchableOpacity onPress={() => navigation.navigate('Camera')}
+            style={{right: '25%', backgroundColor: 'transparent', paddingLeft: 15}}
+          >
+            <Image style={{width: 25, height: 25}} source={require('./images/icons/camera.png')}/>
+          </TouchableOpacity>
         )
       })
     }
