@@ -12,7 +12,10 @@ import {
 
 const Registry = ({ navigation }) => (
   <Container>
-  <Image source={{uri: navigation.state.params.registry.image}} />
+  <Image
+    source={{uri: navigation.state.params.registry.image}}
+    resizeMode="contain"
+  />
   </Container>
 );
 

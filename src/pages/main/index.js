@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ScrollView, RefreshControl } from 'react-native';
 
 import api from '../../services/api';
 
@@ -6,6 +7,7 @@ import {
   View,
   Text,
   TouchableOpacity,
+  ActivityIndicator,
   FlatList,
   Button
 } from 'react-native';
@@ -21,7 +23,8 @@ import {
 
 export default class Main extends Component {
   state = {
-    registries: []
+    registries: [],
+    refreshing: true
   }
 
   static navigationOptions = {
@@ -44,8 +47,15 @@ export default class Main extends Component {
 
     const registries = response.data;
 
-    this.setState({ registries });
+    this.setState({ registries, refreshing: false });
   };
+
+  onRefresh() {
+    //Clear old data of the list
+    this.setState({ registries: [] });
+    //Call the Service to get the latest data
+    this.loadRegistries();
+  }
 
   renderItem = ({ item }) => (
     <RegistryContainer>
@@ -61,12 +71,28 @@ export default class Main extends Component {
   );
 
   render() {
+    if (this.state.refreshing) {
+      return (
+        //loading view while data is loading
+        <View style={{ flex: 1, paddingTop: 20 }}>
+          <ActivityIndicator />
+        </View>
+      );
+    }
+
     return(
       <Container>
-        <List
+        <FlatList
           data={this.state.registries}
           keyExtractor={item => item.id}
           renderItem={this.renderItem}
+          refreshControl={
+            <RefreshControl
+              //refresh control used for the Pull to Refresh
+              refreshing={this.state.refreshing}
+              onRefresh={this.onRefresh.bind(this)}
+            />
+          }
         />
       </Container>
     );

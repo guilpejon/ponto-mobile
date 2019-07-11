@@ -8,8 +8,9 @@ const Container = styled.View`
 `;
 
 const Image = styled.Image`
-  width: 100%;
+  flex: 1;
   height: 100%;
+  width: 100%;
 `
 
 export { Container, Image };
