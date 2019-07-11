@@ -8,8 +8,8 @@ import { AsyncStorage } from 'react-native';
  */
 
 const api = axios.create({
-  baseURL: 'http://55c9a6f1.ngrok.io/api'
-  // baseURL: 'http:10.0.3.2:3000/api',
+  baseURL: 'http://812af1ac.ngrok.io/api'
+  // baseURL: 'http:ponto-eletronico-app.herokuapp.com/api',
 });
 
 api.interceptors.request.use(async config => {
