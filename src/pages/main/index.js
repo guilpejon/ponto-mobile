@@ -59,7 +59,7 @@ export default class Main extends Component {
 
   renderItem = ({ item }) => (
     <RegistryContainer>
-      <RegistryCreatedAt>{item.createdAt}</RegistryCreatedAt>
+      <RegistryCreatedAt>{item.createdAt.replace(' ', ' - ')}</RegistryCreatedAt>
       <RegistryButton
         onPress={() => {
           this.props.navigation.navigate('Registry', { registry: item });
@@ -82,7 +82,7 @@ export default class Main extends Component {
 
     return(
       <Container>
-        <FlatList
+        <List
           data={this.state.registries}
           keyExtractor={item => item.id}
           renderItem={this.renderItem}

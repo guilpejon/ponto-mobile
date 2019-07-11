@@ -18,6 +18,7 @@ const RegistryCreatedAt = styled.Text`
 `
 
 const RegistryContainer = styled.View`
+  flex: 1;
   backgroundColor: #fff;
   borderWidth: 1px;
   borderColor: #ddd;
@@ -45,9 +46,9 @@ const RegistryButtonText = styled.Text`
 
 export {
   Container,
-  List,
   RegistryCreatedAt,
   RegistryButton,
   RegistryContainer,
-  RegistryButtonText
+  RegistryButtonText,
+  List
 };
