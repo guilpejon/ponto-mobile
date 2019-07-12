@@ -24,7 +24,9 @@ import {
 export default class Main extends Component {
   state = {
     registries: [],
-    refreshing: true
+    registriesInfo: {},
+    refreshing: true,
+    page: 1
   }
 
   static navigationOptions = {
@@ -43,11 +45,20 @@ export default class Main extends Component {
   }
 
   loadRegistries = async (page = 1) => {
-    const response = await api.get(`/registries?page=${page}`);
+    try {
+      const response = await api.get(`/registries?page=${page}`);
 
-    const registries = response.data;
+      const { docs: registries, ...registriesInfo } = response.data;
 
-    this.setState({ registries, refreshing: false });
+      this.setState({
+        registries: [...this.state.registries, ...registries],
+        registriesInfo,
+        page,
+        refreshing: false
+      });
+    } catch(exception) {
+      console.log(exception)
+    }
   };
 
   onRefresh() {
@@ -69,6 +80,16 @@ export default class Main extends Component {
       </RegistryButton>
     </RegistryContainer>
   );
+
+  loadMore = () => {
+    const { page, registriesInfo } = this.state;
+
+    if (page === registriesInfo.page) return;
+
+    const pageNumber = page + 1;
+
+    this.loadRegistries(pageNumber);
+  };
 
   render() {
     if (this.state.refreshing) {
@@ -93,6 +114,8 @@ export default class Main extends Component {
               onRefresh={this.onRefresh.bind(this)}
             />
           }
+          onEndReached={this.loadMore}
+          onEndReachedThreshold={0.1}
         />
       </Container>
     );

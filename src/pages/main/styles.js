@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.View`
   flex: 1;
-  alignItems: center;
+  alignItems: stretch;
   justifyContent: center;
   backgroundColor: #f5f5f5;
 `;
@@ -13,12 +13,12 @@ const List = styled.FlatList`
 
 const RegistryCreatedAt = styled.Text`
   fontSize: 18px;
+  textAlign: center;
   fontWeight: bold;
   color: #333;
 `
 
 const RegistryContainer = styled.View`
-  flex: 1;
   backgroundColor: #fff;
   borderWidth: 1px;
   borderColor: #ddd;
@@ -36,6 +36,8 @@ const RegistryButton = styled.TouchableOpacity`
   justifyContent: center;
   alignItems: center;
   marginTop: 10px;
+  paddingLeft: 10px;
+  paddingRight: 10px;
 `
 
 const RegistryButtonText = styled.Text`
