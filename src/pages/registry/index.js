@@ -40,7 +40,7 @@ export default class Registry extends Component {
     if (this.state.refreshing) {
       return (
         //loading view while data is loading
-        <View style={{ flex: 1, paddingTop: 20 }}>
+        <View style={{ flex: 1, paddingTop: 30 }}>
           <ActivityIndicator />
         </View>
       );

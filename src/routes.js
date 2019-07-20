@@ -4,6 +4,7 @@ import SignIn from './pages/signIn';
 import SignUp from './pages/signUp';
 import Main from './pages/main';
 import Registry from './pages/registry';
+import RegistryReview from './pages/registryReview';
 import Camera from './pages/camera';
 
 import React from 'react';
@@ -15,6 +16,7 @@ const Routes = createStackNavigator(
     SignUp,
     Camera,
     Registry,
+    RegistryReview,
     Main: {
       screen: Main,
       navigationOptions: ({ navigation }) => ({

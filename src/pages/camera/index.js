@@ -45,16 +45,7 @@ export default class Camera extends PureComponent {
     if (this.camera) {
       const options = { quality: 0.5, base64: true, doNotSave: true };
       const data = await this.camera.takePictureAsync(options);
-      const response = await api.post('/registries', {
-        image: data.base64
-      });
-      console.log(response)
-      if (response.status === 200) {
-        const backAction = NavigationActions.back({
-          key: 'Main',
-        });
-        this.props.navigation.dispatch(backAction);
-      }
+      this.props.navigation.navigate('RegistryReview', { image: data });
     }
   };
 }
