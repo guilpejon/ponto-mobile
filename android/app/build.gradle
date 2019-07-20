@@ -116,7 +116,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.pontoapp"
+        applicationId "com.guilpejonpontoapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

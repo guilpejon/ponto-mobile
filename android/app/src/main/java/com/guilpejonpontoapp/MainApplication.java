@@ -1,4 +1,4 @@
-package com.pontoapp;
+package com.guilpejonpontoapp;
 
 import android.app.Application;
 

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* PontoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PontoAppTests.m */; };
+		00E356F31AD99517003FC87E /* GuilpejonPontoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GuilpejonPontoAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		148A8FCD510419B47EF17A92 /* libPods-PontoApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4727DFDDA5DC8F5FB0BF60 /* libPods-PontoApp-tvOS.a */; };
+		148A8FCD510419B47EF17A92 /* libPods-GuilpejonPontoApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4727DFDDA5DC8F5FB0BF60 /* libPods-GuilpejonPontoApp-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* PontoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PontoAppTests.m */; };
-		2EC95E871C052576BE927BE8 /* libPods-PontoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBDA6BBA4988C6F237B7415 /* libPods-PontoApp.a */; };
-		4BCAC53B8256E354F63E42B5 /* libPods-PontoApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C616414984B9DC5422F01496 /* libPods-PontoApp-tvOSTests.a */; };
-		A8174B4D5219E114E5B829D0 /* libPods-PontoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B74BFD87C1FB3C827014280 /* libPods-PontoAppTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* GuilpejonPontoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GuilpejonPontoAppTests.m */; };
+		2EC95E871C052576BE927BE8 /* libPods-GuilpejonPontoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBDA6BBA4988C6F237B7415 /* libPods-GuilpejonPontoApp.a */; };
+		4BCAC53B8256E354F63E42B5 /* libPods-GuilpejonPontoApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C616414984B9DC5422F01496 /* libPods-GuilpejonPontoApp-tvOSTests.a */; };
+		A8174B4D5219E114E5B829D0 /* libPods-GuilpejonPontoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B74BFD87C1FB3C827014280 /* libPods-GuilpejonPontoAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PontoApp;
+			remoteInfo = GuilpejonPontoApp;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "PontoApp-tvOS";
+			remoteInfo = "GuilpejonPontoApp-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* PontoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* GuilpejonPontoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuilpejonPontoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PontoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PontoAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PontoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PontoApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PontoApp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* GuilpejonPontoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuilpejonPontoAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* GuilpejonPontoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuilpejonPontoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GuilpejonPontoApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GuilpejonPontoApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PontoApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PontoApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PontoApp/main.m; sourceTree = "<group>"; };
-		18A0DE6D4F39E05B7BBEB75B /* Pods-PontoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PontoAppTests/Pods-PontoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		22F85CD70AD694D06F39A35B /* Pods-PontoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoAppTests.release.xcconfig"; path = "Target Support Files/Pods-PontoAppTests/Pods-PontoAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* PontoApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PontoApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* PontoApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PontoApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B74BFD87C1FB3C827014280 /* libPods-PontoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PontoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C4727DFDDA5DC8F5FB0BF60 /* libPods-PontoApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PontoApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3B115BDBE2E5FBA6B8BCB1 /* Pods-PontoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoApp.release.xcconfig"; path = "Target Support Files/Pods-PontoApp/Pods-PontoApp.release.xcconfig"; sourceTree = "<group>"; };
-		5DCAADF7E50A8FFB0F7DF178 /* Pods-PontoApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PontoApp-tvOS/Pods-PontoApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		6E3A7043617F51480E274F00 /* Pods-PontoApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PontoApp-tvOSTests/Pods-PontoApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		73D5639E2565D4C430833F29 /* Pods-PontoApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PontoApp-tvOS/Pods-PontoApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		90A5F86903799AC4B27C70D6 /* Pods-PontoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoApp.debug.xcconfig"; path = "Target Support Files/Pods-PontoApp/Pods-PontoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BEE14F5792DB17E1D286ADAB /* Pods-PontoApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PontoApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PontoApp-tvOSTests/Pods-PontoApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C616414984B9DC5422F01496 /* libPods-PontoApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PontoApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFBDA6BBA4988C6F237B7415 /* libPods-PontoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PontoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GuilpejonPontoApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GuilpejonPontoApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GuilpejonPontoApp/main.m; sourceTree = "<group>"; };
+		18A0DE6D4F39E05B7BBEB75B /* Pods-GuilpejonPontoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoAppTests/Pods-GuilpejonPontoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22F85CD70AD694D06F39A35B /* Pods-GuilpejonPontoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoAppTests.release.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoAppTests/Pods-GuilpejonPontoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuilpejonPontoApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* GuilpejonPontoApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GuilpejonPontoApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B74BFD87C1FB3C827014280 /* libPods-GuilpejonPontoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuilpejonPontoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4727DFDDA5DC8F5FB0BF60 /* libPods-GuilpejonPontoApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuilpejonPontoApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3B115BDBE2E5FBA6B8BCB1 /* Pods-GuilpejonPontoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoApp.release.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoApp/Pods-GuilpejonPontoApp.release.xcconfig"; sourceTree = "<group>"; };
+		5DCAADF7E50A8FFB0F7DF178 /* Pods-GuilpejonPontoApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoApp-tvOS/Pods-GuilpejonPontoApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6E3A7043617F51480E274F00 /* Pods-GuilpejonPontoApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoApp-tvOSTests/Pods-GuilpejonPontoApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		73D5639E2565D4C430833F29 /* Pods-GuilpejonPontoApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoApp-tvOS/Pods-GuilpejonPontoApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		90A5F86903799AC4B27C70D6 /* Pods-GuilpejonPontoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoApp.debug.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoApp/Pods-GuilpejonPontoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE14F5792DB17E1D286ADAB /* Pods-GuilpejonPontoApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuilpejonPontoApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GuilpejonPontoApp-tvOSTests/Pods-GuilpejonPontoApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C616414984B9DC5422F01496 /* libPods-GuilpejonPontoApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuilpejonPontoApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBDA6BBA4988C6F237B7415 /* libPods-GuilpejonPontoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuilpejonPontoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8174B4D5219E114E5B829D0 /* libPods-PontoAppTests.a in Frameworks */,
+				A8174B4D5219E114E5B829D0 /* libPods-GuilpejonPontoAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EC95E871C052576BE927BE8 /* libPods-PontoApp.a in Frameworks */,
+				2EC95E871C052576BE927BE8 /* libPods-GuilpejonPontoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148A8FCD510419B47EF17A92 /* libPods-PontoApp-tvOS.a in Frameworks */,
+				148A8FCD510419B47EF17A92 /* libPods-GuilpejonPontoApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCAC53B8256E354F63E42B5 /* libPods-PontoApp-tvOSTests.a in Frameworks */,
+				4BCAC53B8256E354F63E42B5 /* libPods-GuilpejonPontoApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* PontoAppTests */ = {
+		00E356EF1AD99517003FC87E /* GuilpejonPontoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PontoAppTests.m */,
+				00E356F21AD99517003FC87E /* GuilpejonPontoAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PontoAppTests;
+			path = GuilpejonPontoAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PontoApp */ = {
+		13B07FAE1A68108700A75B9A /* GuilpejonPontoApp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = PontoApp;
+			name = GuilpejonPontoApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				DFBDA6BBA4988C6F237B7415 /* libPods-PontoApp.a */,
-				4C4727DFDDA5DC8F5FB0BF60 /* libPods-PontoApp-tvOS.a */,
-				C616414984B9DC5422F01496 /* libPods-PontoApp-tvOSTests.a */,
-				4B74BFD87C1FB3C827014280 /* libPods-PontoAppTests.a */,
+				DFBDA6BBA4988C6F237B7415 /* libPods-GuilpejonPontoApp.a */,
+				4C4727DFDDA5DC8F5FB0BF60 /* libPods-GuilpejonPontoApp-tvOS.a */,
+				C616414984B9DC5422F01496 /* libPods-GuilpejonPontoApp-tvOSTests.a */,
+				4B74BFD87C1FB3C827014280 /* libPods-GuilpejonPontoAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		65904A6517B672902FFC8EDC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90A5F86903799AC4B27C70D6 /* Pods-PontoApp.debug.xcconfig */,
-				5C3B115BDBE2E5FBA6B8BCB1 /* Pods-PontoApp.release.xcconfig */,
-				73D5639E2565D4C430833F29 /* Pods-PontoApp-tvOS.debug.xcconfig */,
-				5DCAADF7E50A8FFB0F7DF178 /* Pods-PontoApp-tvOS.release.xcconfig */,
-				BEE14F5792DB17E1D286ADAB /* Pods-PontoApp-tvOSTests.debug.xcconfig */,
-				6E3A7043617F51480E274F00 /* Pods-PontoApp-tvOSTests.release.xcconfig */,
-				18A0DE6D4F39E05B7BBEB75B /* Pods-PontoAppTests.debug.xcconfig */,
-				22F85CD70AD694D06F39A35B /* Pods-PontoAppTests.release.xcconfig */,
+				90A5F86903799AC4B27C70D6 /* Pods-GuilpejonPontoApp.debug.xcconfig */,
+				5C3B115BDBE2E5FBA6B8BCB1 /* Pods-GuilpejonPontoApp.release.xcconfig */,
+				73D5639E2565D4C430833F29 /* Pods-GuilpejonPontoApp-tvOS.debug.xcconfig */,
+				5DCAADF7E50A8FFB0F7DF178 /* Pods-GuilpejonPontoApp-tvOS.release.xcconfig */,
+				BEE14F5792DB17E1D286ADAB /* Pods-GuilpejonPontoApp-tvOSTests.debug.xcconfig */,
+				6E3A7043617F51480E274F00 /* Pods-GuilpejonPontoApp-tvOSTests.release.xcconfig */,
+				18A0DE6D4F39E05B7BBEB75B /* Pods-GuilpejonPontoAppTests.debug.xcconfig */,
+				22F85CD70AD694D06F39A35B /* Pods-GuilpejonPontoAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PontoApp */,
+				13B07FAE1A68108700A75B9A /* GuilpejonPontoApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PontoAppTests */,
+				00E356EF1AD99517003FC87E /* GuilpejonPontoAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				65904A6517B672902FFC8EDC /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PontoApp.app */,
-				00E356EE1AD99517003FC87E /* PontoAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* PontoApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* PontoApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* GuilpejonPontoApp.app */,
+				00E356EE1AD99517003FC87E /* GuilpejonPontoAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* GuilpejonPontoApp-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PontoAppTests */ = {
+		00E356ED1AD99517003FC87E /* GuilpejonPontoAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PontoAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GuilpejonPontoAppTests" */;
 			buildPhases = (
 				292E8189D34D0FF14E4A1F30 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PontoAppTests;
-			productName = PontoAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* PontoAppTests.xctest */;
+			name = GuilpejonPontoAppTests;
+			productName = GuilpejonPontoAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* GuilpejonPontoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PontoApp */ = {
+		13B07F861A680F5B00A75B9A /* GuilpejonPontoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PontoApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GuilpejonPontoApp" */;
 			buildPhases = (
 				0E38DF95E8E57E1030FE83D7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = PontoApp;
-			productName = PontoApp;
-			productReference = 13B07F961A680F5B00A75B9A /* PontoApp.app */;
+			name = GuilpejonPontoApp;
+			productName = GuilpejonPontoApp;
+			productReference = 13B07F961A680F5B00A75B9A /* GuilpejonPontoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* PontoApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PontoApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GuilpejonPontoApp-tvOS" */;
 			buildPhases = (
 				953D7BB7086D111AC49A845D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "PontoApp-tvOS";
-			productName = "PontoApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* PontoApp-tvOS.app */;
+			name = "GuilpejonPontoApp-tvOS";
+			productName = "GuilpejonPontoApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* PontoApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PontoApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GuilpejonPontoApp-tvOSTests" */;
 			buildPhases = (
 				0A880CB1E116AA3E4B574AD6 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "PontoApp-tvOSTests";
-			productName = "PontoApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* PontoApp-tvOSTests.xctest */;
+			name = "GuilpejonPontoApp-tvOSTests";
+			productName = "GuilpejonPontoApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* GuilpejonPontoApp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PontoApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GuilpejonPontoApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PontoApp */,
-				00E356ED1AD99517003FC87E /* PontoAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* PontoApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* PontoApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* GuilpejonPontoApp */,
+				00E356ED1AD99517003FC87E /* GuilpejonPontoAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +388,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PontoApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuilpejonPontoApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,7 +410,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PontoApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuilpejonPontoApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,7 +432,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PontoAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuilpejonPontoAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PontoApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GuilpejonPontoApp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PontoAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* GuilpejonPontoAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* PontoAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* GuilpejonPontoAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PontoApp */;
+			target = 13B07F861A680F5B00A75B9A /* GuilpejonPontoApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* PontoApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* GuilpejonPontoApp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = PontoApp;
+			path = GuilpejonPontoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18A0DE6D4F39E05B7BBEB75B /* Pods-PontoAppTests.debug.xcconfig */;
+			baseConfigurationReference = 18A0DE6D4F39E05B7BBEB75B /* Pods-GuilpejonPontoAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PontoAppTests/Info.plist;
+				INFOPLIST_FILE = GuilpejonPontoAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontoApp.app/PontoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuilpejonPontoApp.app/GuilpejonPontoApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22F85CD70AD694D06F39A35B /* Pods-PontoAppTests.release.xcconfig */;
+			baseConfigurationReference = 22F85CD70AD694D06F39A35B /* Pods-GuilpejonPontoAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = PontoAppTests/Info.plist;
+				INFOPLIST_FILE = GuilpejonPontoAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontoApp.app/PontoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuilpejonPontoApp.app/GuilpejonPontoApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90A5F86903799AC4B27C70D6 /* Pods-PontoApp.debug.xcconfig */;
+			baseConfigurationReference = 90A5F86903799AC4B27C70D6 /* Pods-GuilpejonPontoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = PontoApp/Info.plist;
+				INFOPLIST_FILE = GuilpejonPontoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PontoApp;
+				PRODUCT_NAME = GuilpejonPontoApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C3B115BDBE2E5FBA6B8BCB1 /* Pods-PontoApp.release.xcconfig */;
+			baseConfigurationReference = 5C3B115BDBE2E5FBA6B8BCB1 /* Pods-GuilpejonPontoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = PontoApp/Info.plist;
+				INFOPLIST_FILE = GuilpejonPontoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PontoApp;
+				PRODUCT_NAME = GuilpejonPontoApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73D5639E2565D4C430833F29 /* Pods-PontoApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 73D5639E2565D4C430833F29 /* Pods-GuilpejonPontoApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PontoApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "GuilpejonPontoApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PontoApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GuilpejonPontoApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DCAADF7E50A8FFB0F7DF178 /* Pods-PontoApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 5DCAADF7E50A8FFB0F7DF178 /* Pods-GuilpejonPontoApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PontoApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "GuilpejonPontoApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PontoApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GuilpejonPontoApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE14F5792DB17E1D286ADAB /* Pods-PontoApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = BEE14F5792DB17E1D286ADAB /* Pods-GuilpejonPontoApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PontoApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GuilpejonPontoApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PontoApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GuilpejonPontoApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontoApp-tvOS.app/PontoApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuilpejonPontoApp-tvOS.app/GuilpejonPontoApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E3A7043617F51480E274F00 /* Pods-PontoApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6E3A7043617F51480E274F00 /* Pods-GuilpejonPontoApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PontoApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GuilpejonPontoApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PontoApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GuilpejonPontoApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontoApp-tvOS.app/PontoApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuilpejonPontoApp-tvOS.app/GuilpejonPontoApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PontoAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GuilpejonPontoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PontoApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GuilpejonPontoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PontoApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GuilpejonPontoApp-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PontoApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GuilpejonPontoApp-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PontoApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GuilpejonPontoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
