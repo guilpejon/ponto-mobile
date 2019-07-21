@@ -39,12 +39,14 @@ export default class RegistryReview extends Component {
     }
   };
 
-  createRegistry = async (base64Image) => {
+  createRegistry = async (base64Image, date) => {
     this.setState({ refreshing: true });
     try {
       const response = await api.post('/registries', {
-        image: base64Image
+        image: base64Image,
+        date
       });
+
       if (response.status === 200) {
         this.props.navigation.navigate('Main');
       } else {
@@ -80,7 +82,10 @@ export default class RegistryReview extends Component {
         />
         <RegistryButton
           onPress={() => {
-            this.createRegistry(this.state.registry.image)
+            this.createRegistry(
+              this.state.registry.image,
+              this.state.registry.date
+            )
           }}
         >
           <RegistryButtonText>Confirmar Registro</RegistryButtonText>
