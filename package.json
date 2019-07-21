@@ -7,10 +7,10 @@
     "start-android": "npx react-native run-android",
     "start-ios": "npx react-native run-ios",
     "log-android": "react-native log-android",
-    "log-iod": "react-native log-ios",
+    "log-ios": "react-native log-ios",
     "test": "jest",
     "lint": "eslint .",
-    "android-release": "cd android && ./gradlew bundleRelease && cd .."
+    "release-android": "cd android && ./gradlew bundleRelease && cd .."
   },
   "dependencies": {
     "axios": "^0.19.0",
