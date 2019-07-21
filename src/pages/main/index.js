@@ -45,11 +45,22 @@ export default class Main extends Component {
     this.loadRegistries();
   }
 
+  groupBy = key => array =>
+    array.reduce((objectsByKeyValue, obj) => {
+      const value = obj[key].split(' ')[0];
+      objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
+      return objectsByKeyValue;
+    }, {});
+
   loadRegistries = async (page = 1) => {
     try {
       const response = await api.get(`/registries?page=${page}`);
 
       const { docs: registries, ...registriesInfo } = response.data;
+
+      // const groupByCreatedAt = this.groupBy('createdAt');
+      // const grouped = groupByCreatedAt(registries);
+      // let entries = Object.entries(grouped)
 
       this.setState({
         registries: [...this.state.registries, ...registries],
