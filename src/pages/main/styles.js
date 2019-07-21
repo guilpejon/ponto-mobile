@@ -18,13 +18,13 @@ const RegistryCreatedAt = styled.Text`
   color: #333;
 `
 
-const RegistryContainer = styled.View`
+const RegistryContainer = styled.TouchableOpacity`
   backgroundColor: #fff;
   borderWidth: 1px;
   borderColor: #ddd;
   borderRadius: 5px;
-  padding: 20px;
-  marginBottom: 20px;
+  padding: 15px;
+  marginBottom: 15px;
 `
 
 const RegistryButton = styled.TouchableOpacity`

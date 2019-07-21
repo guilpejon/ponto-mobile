@@ -7,6 +7,7 @@ import {
   View,
   Text,
   TouchableOpacity,
+  Image,
   ActivityIndicator,
   FlatList,
   Button
@@ -69,15 +70,8 @@ export default class Main extends Component {
   }
 
   renderItem = ({ item }) => (
-    <RegistryContainer>
+    <RegistryContainer onPress={() => this.props.navigation.navigate('Registry', { registry: item })}>
       <RegistryCreatedAt>{item.createdAt.replace(' ', ' - ')}</RegistryCreatedAt>
-      <RegistryButton
-        onPress={() => {
-          this.props.navigation.navigate('Registry', { registry: item });
-        }}
-      >
-        <RegistryButtonText>Visualizar</RegistryButtonText>
-      </RegistryButton>
     </RegistryContainer>
   );
 
