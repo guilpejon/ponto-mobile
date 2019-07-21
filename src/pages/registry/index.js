@@ -6,12 +6,16 @@ import api from '../../services/api';
 import {
   Text ,
   View,
-  ActivityIndicator
+  ActivityIndicator,
+  TouchableOpacity,
+  Image
 } from 'react-native'
 
 import {
   Container,
-  Image
+  RegistryImage,
+  DeleteButton,
+  DeleteButtonText
 } from './styles'
 
 export default class Registry extends Component {
@@ -28,7 +32,7 @@ export default class Registry extends Component {
 
       this.setState({ registry, refreshing: false });
     } catch(exception) {
-
+      console.log(exception)
     }
   };
 
@@ -36,22 +40,40 @@ export default class Registry extends Component {
     this.loadRegistry(this.props.navigation.state.params.registry);
   }
 
+  deleteRegistry = async () => {
+    try {
+      const response = await api.delete(`/registries/${this.state.registry.id}`);
+      if (response.status === 204) {
+        this.props.navigation.navigate('Main')
+      }
+    } catch(exception) {
+      console.log(exception)
+    }
+  }
+
   render() {
     if (this.state.refreshing) {
       return (
         //loading view while data is loading
         <View style={{ flex: 1, paddingTop: 30 }}>
-          <ActivityIndicator />
+        <ActivityIndicator />
         </View>
       );
     }
 
     return (
       <Container>
-        <Image
+        <RegistryImage
         source={{uri: this.state.registry.image}}
         resizeMode="contain"
         />
+        <DeleteButton
+          onPress={() => {
+            this.deleteRegistry()
+          }}
+        >
+          <DeleteButtonText>Apagar Registro</DeleteButtonText>
+        </DeleteButton>
       </Container>
     );
   }
@@ -62,6 +84,13 @@ Registry.navigationOptions = ({ navigation }) => ({
   headerStyle: {
     backgroundColor: '#FC6663',
   },
+  // headerRight: (
+  //   <TouchableOpacity onPress={() => this.deleteRegistry()}
+  //   style={{right: '25%', backgroundColor: 'transparent', paddingLeft: 15}}
+  //   >
+  //     <Image style={{width: 25, height: 25}} source={require('../../images/icons/trash.png')}/>
+  //   </TouchableOpacity>
+  // ),
   headerTintColor: '#fff',
   headerTitleStyle: {
     fontWeight: 'bold',

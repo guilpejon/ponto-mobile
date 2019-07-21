@@ -7,10 +7,34 @@ const Container = styled.View`
   backgroundColor: #f5f5f5;
 `;
 
-const Image = styled.Image`
+const RegistryImage = styled.Image`
   flex: 1;
   height: 100%;
   width: 100%;
 `
 
-export { Container, Image };
+const DeleteButton = styled.TouchableOpacity`
+  height: 42px;
+  borderRadius: 5px;
+  borderWidth: 2px;
+  borderColor: #da552f;
+  backgroundColor: transparent;
+  justifyContent: center;
+  alignItems: center;
+  marginBottom: 100px;
+  paddingLeft: 10px;
+  paddingRight: 10px;
+`
+
+const DeleteButtonText = styled.Text`
+  fontSize: 16px;
+  color: #da552f;
+  fontWeight: bold;
+`
+
+export {
+  Container,
+  RegistryImage,
+  DeleteButton,
+  DeleteButtonText
+};
