@@ -17,7 +17,7 @@ const RegistryDate = styled.Text`
   textAlign: center;
   fontSize: 22px;
   fontWeight: bold;
-  marginTop: 30px;
+  marginTop: 50px;
   marginHorizontal: 20px;
 `;
 
@@ -29,7 +29,7 @@ const RegistryButton = styled.TouchableOpacity`
   backgroundColor: transparent;
   justifyContent: center;
   alignItems: center;
-  marginBottom: 30px;
+  marginBottom: 50px;
   paddingLeft: 10px;
   paddingRight: 10px;
 `

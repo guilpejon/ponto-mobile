@@ -80,7 +80,7 @@ export default class Registry extends Component {
 }
 
 Registry.navigationOptions = ({ navigation }) => ({
-  title: navigation.state.params.registry.createdAt,
+  title: navigation.state.params.registry.createdAt.replace(',','').replace(' ', ' - '),
   headerStyle: {
     backgroundColor: '#FC6663',
   },

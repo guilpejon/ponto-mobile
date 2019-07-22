@@ -82,7 +82,7 @@ export default class Main extends Component {
 
   renderItem = ({ item }) => (
     <RegistryContainer onPress={() => this.props.navigation.navigate('Registry', { registry: item })}>
-      <RegistryCreatedAt>{item.createdAt.replace(' ', ' - ')}</RegistryCreatedAt>
+      <RegistryCreatedAt>{item.createdAt.replace(',','').replace(' ', ' - ')}</RegistryCreatedAt>
     </RegistryContainer>
   );
 

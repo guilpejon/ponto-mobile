@@ -21,7 +21,7 @@ const DeleteButton = styled.TouchableOpacity`
   backgroundColor: transparent;
   justifyContent: center;
   alignItems: center;
-  marginBottom: 100px;
+  marginBottom: 75px;
   paddingLeft: 10px;
   paddingRight: 10px;
 `

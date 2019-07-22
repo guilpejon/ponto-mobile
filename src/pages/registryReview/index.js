@@ -75,7 +75,7 @@ export default class RegistryReview extends Component {
 
     return (
       <Container>
-        <RegistryDate>{this.state.registry.date}</RegistryDate>
+        <RegistryDate>{this.state.registry.date.replace(',', '').replace(' ', ' - ')}</RegistryDate>
         <Image
           source={{uri: this.state.registry.image}}
           resizeMode="contain"
