@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "jetifier": "^1.6.1",
+    "jetifier": "^1.6.3",
     "node-pre-gyp": "^0.13.0",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
